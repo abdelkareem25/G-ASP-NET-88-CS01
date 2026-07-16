@@ -93,8 +93,16 @@
             Console.WriteLine("Q8:");
             string yearText = "2023";
             int year = int.Parse(yearText);
+            Console.WriteLine($"Year: {year}");
             string badText = "abc";
-            int badNumber = int.TryParse(badText, out int result) ? result : throw new FormatException("Invalid number");
+            if(int.TryParse(badText, out int badNumber))
+            {
+                Console.WriteLine($"Parsed number: {badNumber}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
             #endregion
 
 
