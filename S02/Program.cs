@@ -144,7 +144,27 @@
             string? reviewer = null;
             Console.WriteLine($"Reviewer is null: {reviewer}");
             #endregion
-
+            #region Q13
+            /*
+             * Declare a Book? book = null;. Use ?. to safely read book.Title without crashing the program, and print the result.
+             */
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Q13:");
+            Book? bookQ13 = null;
+            Console.WriteLine($"Book title: {bookQ13?.Title}");
+            #endregion
+            #region Q14
+            /*
+             * Using title from the previous question, use ?? to print "Untitled" if title is null.
+             * Then use ??= to assign title the value "Untitled" only if it's still null.
+             */
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Q14:");
+            string? title = null;
+            Console.WriteLine($"Title: {title ?? "Untitled"}");
+            title ??= "Untitled";
+            Console.WriteLine($"Title: {title}");
+            #endregion
         }
     }
 }
