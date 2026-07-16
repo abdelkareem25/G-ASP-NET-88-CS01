@@ -95,7 +95,7 @@
             int year = int.Parse(yearText);
             Console.WriteLine($"Year: {year}");
             string badText = "abc";
-            if(int.TryParse(badText, out int badNumber))
+            if (int.TryParse(badText, out int badNumber))
             {
                 Console.WriteLine($"Parsed number: {badNumber}");
             }
@@ -104,7 +104,15 @@
                 Console.WriteLine("Invalid number");
             }
             #endregion
-
+            #region Q9
+            /*Given int pages = 464;,
+             * convert it into a string using ToString() and print its type using GetType() to prove it's now a string.*/
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Q9:");
+            int pagesQ9 = 464;
+            string PagesString = pagesQ9.ToString();
+            Console.WriteLine(PagesString.GetType());
+            #endregion
 
 
 
