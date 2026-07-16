@@ -165,6 +165,17 @@
             title ??= "Untitled";
             Console.WriteLine($"Title: {title}");
             #endregion
+            #region Q15
+            /*
+             * Given string? name = "Ahmed"; (you are sure it's not null here),
+             * assign it to a non-nullable string confirmedName using the ! operator.
+             */
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Q15:");
+            string? name = "Ahmed";
+            string confirmedName = name!;
+            Console.WriteLine(confirmedName);
+            #endregion
         }
     }
 }
