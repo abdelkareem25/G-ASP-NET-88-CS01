@@ -113,9 +113,37 @@
             string PagesString = pagesQ9.ToString();
             Console.WriteLine(PagesString.GetType());
             #endregion
-
-
-
+            #region Q10
+            /*Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int variable, and print both.
+             */
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Q10:");
+            int copies = 100;
+            object Box = copies; // Boxing
+            int UnBox = (int)Box; // Unboxing
+            Console.WriteLine($"Boxed value: {Box}");
+            Console.WriteLine($"Unboxed value: {UnBox}");
+            #endregion
+            #region Q11
+            /*
+             * Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
+             */
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Q11:");
+            int? yearQ11 = null;
+            Console.WriteLine($"Year has value: {yearQ11.HasValue}");
+            yearQ11 = 2023;
+            Console.WriteLine($"Year value: {yearQ11}");
+            #endregion
+            #region Q12
+            /*
+             Declare a string? reviewer = null;. Print whether it is null.
+             */
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Q12:");
+            string? reviewer = null;
+            Console.WriteLine($"Reviewer is null: {reviewer}");
+            #endregion
 
         }
     }
