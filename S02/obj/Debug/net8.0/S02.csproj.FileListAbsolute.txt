@@ -1,0 +1,15 @@
+D:\RouteAssienments\C#Basics\S02\bin\Debug\net8.0\S02.exe
+D:\RouteAssienments\C#Basics\S02\bin\Debug\net8.0\S02.deps.json
+D:\RouteAssienments\C#Basics\S02\bin\Debug\net8.0\S02.runtimeconfig.json
+D:\RouteAssienments\C#Basics\S02\bin\Debug\net8.0\S02.dll
+D:\RouteAssienments\C#Basics\S02\bin\Debug\net8.0\S02.pdb
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\S02.GeneratedMSBuildEditorConfig.editorconfig
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\S02.AssemblyInfoInputs.cache
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\S02.AssemblyInfo.cs
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\S02.csproj.CoreCompileInputs.cache
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\S02.sourcelink.json
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\S02.dll
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\refint\S02.dll
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\S02.pdb
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\S02.genruntimeconfig.cache
+D:\RouteAssienments\C#Basics\S02\obj\Debug\net8.0\ref\S02.dll
