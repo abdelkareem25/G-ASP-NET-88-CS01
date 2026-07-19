@@ -271,8 +271,19 @@
                 bookIndex++;
             }
             #endregion
-            
-            
+            #region Q6
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Question 06");
+            /*
+            * Write a do-while loop that prints “Checking book…” exactly 3 times.
+            */
+            int Q6bookIndex = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                Q6bookIndex++;
+            }while (Q6bookIndex < 3);
+            #endregion
             
             #endregion
         }
