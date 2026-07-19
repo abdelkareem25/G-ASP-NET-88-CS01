@@ -284,7 +284,17 @@
                 Q6bookIndex++;
             }while (Q6bookIndex < 3);
             #endregion
-            
+            #region Q7
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Question 07");
+            /*
+             * Using the same books array, use a foreach loop to print every book title.
+             */
+             foreach(string book in books)
+             {
+                Console.WriteLine(book);
+             }
+            #endregion
             #endregion
         }
     }
