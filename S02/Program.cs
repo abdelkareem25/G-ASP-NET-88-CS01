@@ -181,151 +181,166 @@
             #endregion
 
             #region G-NET-88-CS02
-            
-            
-            #region Q1
-            Console.WriteLine("Question 01 ");
-            Console.WriteLine("-------------------------");
-            /*
-             Given int pages = 464;, write an if / else statement that
-            prints “Long Book” if pages is greater than 300, otherwise prints “Short
-            Book”.
-            */
-            int D2pages = 464;
-            if (D2pages > 300)
-            {
-                Console.WriteLine("Long Book");
 
-            }
-            else
-            {
-                Console.WriteLine("Short Book");
-            }
+            #region Q1
+            //Console.WriteLine("Question 01 ");
+            ///*
+            // Given int pages = 464;, write an if / else statement that
+            //prints “Long Book” if pages is greater than 300, otherwise prints “Short
+            //Book”.
+            //*/
+            //int D2pages = 464;
+            //if (D2pages > 300)
+            //{
+            //    Console.WriteLine("Long Book");
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Short Book");
+            //}
             #endregion
             #region Q2
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("Question 02 ");
-            /*
-            Given int pages = 464; and bool isAvailable = true;, print
-            “You can borrow this book” only if pages is greater than 300 and
-            isAvailable is true. Use the && operator.
-            */
-            int pages = 464;
-            bool isAvailable = true;
-            if(pages > 300 && isAvailable)
-            {
-                Console.WriteLine("You can borrow this book");
-            }
-            else
-            {
-                Console.WriteLine("You cannot borrow this book");
-            }
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("Question 02 ");
+            ///*
+            //Given int pages = 464; and bool isAvailable = true;, print
+            //“You can borrow this book” only if pages is greater than 300 and
+            //isAvailable is true. Use the && operator.
+            //*/
+            //int pages = 464;
+            //bool isAvailable = true;
+            //if(pages > 300 && isAvailable)
+            //{
+            //    Console.WriteLine("You can borrow this book");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You cannot borrow this book");
+            //}
             #endregion
             #region Q3
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("Question 03 ");
-            /*
-                Given string title = “Refactoring”;, write a switch
-                statement that prints: - “Great choice!” if the title is “Clean Code” -
-                “Nice pick!” if it’s “Refactoring” - “Never heard of it” for anything
-                else.
-            */
-            string title = "Refactoring";
-            switch(title)
-            {
-                case "Clean Code":
-                    Console.WriteLine("Great choice!");
-                    break;
-                case "Refactoring":
-                    Console.WriteLine("Nice pick!");
-                    break;
-                default:
-                    Console.WriteLine("Never heard of it");
-                    break;
-            }
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("Question 03 ");
+            ///*
+            //    Given string title = “Refactoring”;, write a switch
+            //    statement that prints: - “Great choice!” if the title is “Clean Code” -
+            //    “Nice pick!” if it’s “Refactoring” - “Never heard of it” for anything
+            //    else.
+            //*/
+            //string title = "Refactoring";
+            //switch(title)
+            //{
+            //    case "Clean Code":
+            //        Console.WriteLine("Great choice!");
+            //        break;
+            //    case "Refactoring":
+            //        Console.WriteLine("Nice pick!");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Never heard of it");
+            //        break;
+            //}
             #endregion
             #region Q4
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("Question 04");
-            /*
-             * Given string[] books = { “Clean Code”, “The Pragmatic
-             *Programmer”, “Refactoring” };, use a for loop to print each book with
-             *its position number, like: 1. Clean Code
-             */
-             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-             for(int i= 0 ; i < books.Length; i++)
-             {
-                Console.WriteLine($"{i + 1}. {books[i]}");
-             }
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("Question 04");
+            ///*
+            // * Given string[] books = { “Clean Code”, “The Pragmatic
+            // *Programmer”, “Refactoring” };, use a for loop to print each book with
+            // *its position number, like: 1. Clean Code
+            // */
+            // string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            // for(int i= 0 ; i < books.Length; i++)
+            // {
+            //    Console.WriteLine($"{i + 1}. {books[i]}");
+            // }
             #endregion
             #region Q5
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("Question 05");
-            /*
-            * Using the same books array, use a while loop to print every book title.
-            */
-            int bookIndex = 0;
-            while(bookIndex < books.Length)
-            {
-                Console.WriteLine(books[bookIndex]);
-                bookIndex++;
-            }
-            #endregion
-            #region Q6
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("Question 06");
-            /*
-            * Write a do-while loop that prints “Checking book…” exactly 3 times.
-            */
-            int Q6bookIndex = 0;
-            do
-            {
-                Console.WriteLine("Checking book...");
-                Q6bookIndex++;
-            }while (Q6bookIndex < 3);
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("Question 05");
+            ///*
+            //* Using the same books array, use a while loop to print every book title.
+            //*/
+            //int bookIndex = 0;
+            //while(bookIndex < books.Length)
+            //{
+            //    Console.WriteLine(books[bookIndex]);
+            //    bookIndex++;
+            //}
+            //#endregion
+            //#region Q6
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("Question 06");
+            ///*
+            //* Write a do-while loop that prints “Checking book…” exactly 3 times.
+            //*/
+            //int Q6bookIndex = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    Q6bookIndex++;
+            //}while (Q6bookIndex < 3);
             #endregion
             #region Q7
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("Question 07");
-            /*
-             * Using the same books array, use a foreach loop to print every book title.
-             */
-             foreach(string book in books)
-             {
-                Console.WriteLine(book);
-             }
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("Question 07");
+            ///*
+            // * Using the same books array, use a foreach loop to print every book title.
+            // */
+            // foreach(string book in books)
+            // {
+            //    Console.WriteLine(book);
+            // }
             #endregion
             #region Q8
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("Question 08");
-            /*
-             * Using the same books array, loop through it and print each title, but stop completely (break) once you reach “Refactoring”.
-             */
-            foreach(string book in books)
-            {
-                if(book == "Refactoring")
-                {
-                    break;
-                }
-                Console.WriteLine(book);
-            }
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("Question 08");
+            ///*
+            // * Using the same books array, loop through it and print each title, but stop completely (break) once you reach “Refactoring”.
+            // */
+            //foreach(string book in books)
+            //{
+            //    if(book == "Refactoring")
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine(book);
+            //}
             #endregion
             #region Q9
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("Question 09");
+            ///*
+            // * Using the same books array, print every title except “The Pragmatic Programmer” (skip it with continue, don’t stop the loop)
+            // */
+            //foreach(string book in books)
+            //{
+            //    if(book == "The Pragmatic Programmer")
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(book);
+            //}
+            #endregion
+            #endregion
+
+
+            #region G-NET-88-CS03
+            #region Q1
             Console.WriteLine("-------------------------");
-            Console.WriteLine("Question 09");
+            Console.WriteLine("Question 01");
             /*
-             * Using the same books array, print every title except “The Pragmatic Programmer” (skip it with continue, don’t stop the loop)
+             * Declare string title = "clean code";. Call title.ToUpper() and store it in a new variable upperTitle.
+             * Print both title and upperTitle to show that title did not change.
              */
-            foreach(string book in books)
-            {
-                if(book == "The Pragmatic Programmer")
-                {
-                    continue;
-                }
-                Console.WriteLine(book);
-            }
+            string title = "clean code";
+            string upperTitle = title.ToUpper();
+            Console.WriteLine($"Original: {title}");
+            Console.WriteLine($"Uppercase: {upperTitle}");
             #endregion
             #endregion
+
         }
     }
 }
