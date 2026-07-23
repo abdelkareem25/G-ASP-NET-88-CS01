@@ -1,4 +1,6 @@
-﻿namespace S02
+﻿using System.Text;
+
+namespace S02
 {
     internal class Program
     {
@@ -338,6 +340,29 @@
             string upperTitle = title.ToUpper();
             Console.WriteLine($"Original: {title}");
             Console.WriteLine($"Uppercase: {upperTitle}");
+            #endregion
+            #region Q2
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Question 02");
+            /*
+             * Declare two separate string variables, both set to the literal "Clean Code".
+             * Use ReferenceEquals() to check if they point to the same object in memory.
+             */
+            string str1 = "clean code";
+            string str2 = "clean code";
+            Console.WriteLine($"Are they the same object? : {ReferenceEquals(str1, str2)}");
+            #endregion
+            #region Q3
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Question 03");
+            /*
+             * Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same object.
+             * Print the final result.
+             */
+            StringBuilder strb = new StringBuilder();
+            strb.Append("Book List");
+            strb.Append(" - Updated");
+            Console.WriteLine(strb);
             #endregion
             #endregion
 
