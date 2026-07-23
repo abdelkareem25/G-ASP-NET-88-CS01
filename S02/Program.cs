@@ -364,7 +364,7 @@ namespace S02
             strb.Append(" - Updated");
             Console.WriteLine(strb);
             #endregion
-            #region Q
+            #region Q4
             Console.WriteLine("-------------------------");
             Console.WriteLine("Question 04");
             /*
@@ -375,6 +375,25 @@ namespace S02
             strb.Replace("Book List", "Library");
             Console.WriteLine(strb);
             #endregion
+            #region Q5&6&7
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Question 05");
+            /*
+             *Given string title = "Clean Code"; and int pages = 464;,
+             *build the sentence "Book: Clean Code, Pages: 464" using the + operator
+             */
+            string title2 = "Clean Code";
+            int pages = 464;
+            string result = "Book: " + title2 + ", Pages: " + pages;
+            Console.WriteLine(result);
+
+            //using string interpolation ($"...").             
+            Console.WriteLine($"Book: {title2}, Pages: {pages}");
+
+            //but using string.Format().
+            Console.WriteLine();
+            #endregion
+
             #endregion
 
         }
