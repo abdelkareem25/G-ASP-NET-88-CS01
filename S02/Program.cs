@@ -401,7 +401,25 @@ namespace S02
             Console.WriteLine(format);
 
             #endregion
-
+            #region Q8
+            /*
+             Declare a nullable integer int? pages = null;. Use the Null Coalescing Operator (??) to print pages or 0 if it is null.
+            */
+            Console.WriteLine("-------------------");
+            Console.WriteLine("Question 08");
+            int? q8Pages = null;
+            Console.WriteLine(q8Pages??0);
+            #endregion
+            #region Q9
+            /*
+             Declare a nullable reference string? author = null;.
+             Use the Null Propagation Operator (?.) to safely access and print author.Length
+            */
+            Console.WriteLine("-------------------");
+            Console.WriteLine("Question 09");
+            string? author = null;
+            Console.WriteLine(author?.Length);
+            #endregion
             #endregion
 
         }
