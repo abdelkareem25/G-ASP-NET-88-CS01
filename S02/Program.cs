@@ -364,6 +364,17 @@ namespace S02
             strb.Append(" - Updated");
             Console.WriteLine(strb);
             #endregion
+            #region Q
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Question 04");
+            /*
+             *Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library"
+             *. Print the result.
+             */
+
+            strb.Replace("Book List", "Library");
+            Console.WriteLine(strb);
+            #endregion
             #endregion
 
         }
